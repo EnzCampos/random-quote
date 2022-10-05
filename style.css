@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(30, 85, 92);
+    color: white;
+}
+
+#main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.flex{
+    display: flex;
+}
+
+.length {
+    padding: 15px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 50%;
+}
+
+.session {
+    margin: 10px;
+}
+
+.break {
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green
+}
+
+.timer {
+    text-align: center;
+    border: 5px solid rgb(19, 53, 58);
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.counter-button {
+    background-color: white;
+    padding: 15px;
+    border: 0px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 0px;
+}
