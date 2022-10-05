@@ -1,57 +1,55 @@
-body {
-    background-color: rgb(30, 85, 92);
+body { 
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    quotes: initial;
+}
+
+.quote-box {
+    background-color: #FFFFFF;
+    padding: 2em;
+    width: 50vh;
+    border-radius: 5px;
+    align-items: end;
+}
+
+.buttons-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 0.21em;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    margin: 0.2em;
+    border: 3px solid transparent;
+    border-radius: 5px;
     color: white;
 }
 
-#main-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-h1 {
-    margin-top: 30px;
-    margin-bottom: 0px;
-}
-.flex{
-    display: flex;
-}
-
-.length {
-    padding: 15px;
-    margin: 10px;
-    border: 0px;
-    border-radius: 50%;
-}
-
-.session {
-    margin: 10px;
-}
-
-.break {
-    margin: 10px;
-}
-
-.red {
-    background-color: red;
-}
-
-.green {
-    background-color: green
-}
-
-.timer {
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.35;
     text-align: center;
-    border: 5px solid rgb(19, 53, 58);
-    border-radius: 25px;
-    margin-bottom: 15px;
 }
 
-.counter-button {
-    background-color: white;
-    padding: 15px;
-    border: 0px;
-    border-radius: 15px;
-    margin: 10px;
-    margin-top: 0px;
+.author {
+    font-family: Georgia, serif;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.3em;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    margin: 0.2em;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    color: white;
 }
